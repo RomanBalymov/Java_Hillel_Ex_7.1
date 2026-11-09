@@ -7,9 +7,10 @@ public class Main {
         int[] numbers = new int[20];
         Random random = new Random();
 
+        System.out.printf("Елементи масиву: ");
         for (int i = 0; i < numbers.length; i++){
             numbers[i] = random.nextInt(201) - 100;
-            System.out.print("Елементи масиву " + numbers[i] + " ");
+            System.out.print(numbers[i] + " ");
         }
 
         int negativeSum = 0;
